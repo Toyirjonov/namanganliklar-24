@@ -1,0 +1,141 @@
+.header {
+}
+
+.header-nav {
+  background-color: #f6f6f6;
+}
+
+.header__container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.currency__item {
+  color: #555;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.blue {
+  color: #2959ce;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__container__left {
+  display: flex;
+  gap: 3.5rem;
+}
+.header__container__right {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.header__container__container--search__input {
+  padding: 15px 192px 13px 41px;
+  background-image: url("../icons/search-logo.svg");
+  background-repeat: no-repeat;
+  background-size: 19px 19px;
+  background-position: center left 15px;
+  width: 275px;
+  height: 45px;
+  border-radius: 60px;
+  background-color: #fff;
+  border: none;
+
+  color: #8d8d8d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  background-color: #e4edff;
+  border-radius: 39px;
+  padding: 4px;
+  width: 70;
+  height: 36;
+}
+
+.lang {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 10%;
+  font-size: 14px;
+  color: #9ca3af; // серый цвет
+  text-decoration: none;
+}
+
+.lang--active {
+  background-image: url("../icons/circle.png");
+  background-repeat: no-repeat;
+  background-position: left 5px center;
+  text-align: center;
+
+  color: #000;
+}
+
+.header__container__rigth__btn {
+  display: flex;
+  width: 89px;
+  padding: 13px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #7296ec;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sitelink__container {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 2rem;
+}
+
+.sitelink__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sitelink__link {
+  color: #7f7f7f;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  &:hover {
+    color: #7296ec;
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+}
+
+.active {
+  color: #7296ec;
+  font-weight: 500;
+  font-size: 1.8rem;
+}

@@ -5,12 +5,470 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namanganliklar</title>
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/site-logo.jpg  "
+      type="image/x-icon"
+    />
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">
+      <div class="header-nav">
+        <div class="header__container container">
+          <div class="header__container__left">
+            <div class="site__logo">
+              <a class="site__logo__image" href="./index.html">
+                <img
+                  class="site__logo__img"
+                  src="./icons/logo.svg"
+                  alt="site"
+                  width="276"
+                  height="45"
+                />
+              </a>
+            </div>
+            <div class="currency">
+              <p class="currency__item"><span class="blue">$ </span> 10137.2</p>
+              <p class="currency__item"><span class="blue">P </span>138.26</p>
+            </div>
+          </div>
+
+          <div class="header__container__right">
+            <form action="" class="header__container__right-search">
+              <input
+                type="text"
+                class="header__container__container--search__input"
+                placeholder="Поиск"
+              />
+            </form>
+
+            <div class="lang-toggle">
+              <a href="#" class="lang lang--active">УЗ</a>
+              <a href="#" class="lang">РУ</a>
+            </div>
+
+            <a class="header__container__rigth__btn btn" href="#">Войти</a>
+          </div>
+        </div>
+      </div>
+      <nav class="sitelink__container container">
+        <ul class="sitelink__list container">
+          <li class="sitelink__item">
+            <a href="../index.html" class="sitelink__link active">Главное</a>
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/interesting.html" class="sitelink__link"
+              >Интересное</a
+            >
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/economy.html" class="sitelink__link">Экономика</a>
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/politic.html" class="sitelink__link">Политика</a>
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/society.html" class="sitelink__link">Общество</a>
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/tecnology.html" class="sitelink__link"
+              >Технологии</a
+            >
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/sport.html" class="sitelink__link">Спорт</a>
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/culture.html" class="sitelink__link">Культура</a>
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/incident.html" class="sitelink__link"
+              >Происшествия</a
+            >
+          </li>
+          <li class="sitelink__item">
+            <a href="./pages/science.html" class="sitelink__link">Наука</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="main">
-      <h1>Imtihon "Namanganliklar"</h1>
+      <div class="banner-red container"></div>
+
+      <section class="news container">
+        <article class="news__card">
+          <a class="news__title" href="#">
+            Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного
+            соглашения
+          </a>
+          <p class="news__description">
+            Лидер Социал-демократической партии Германии (СДПГ) и кандидат на
+            должность...
+          </p>
+          <img
+            class="news__image"
+            src="../images/german-flag.png"
+            alt="German flag"
+          />
+          <div class="news__footer">
+            <img class="news__icon" src="./icons/kb.png" alt="kb icon" />
+            <p class="news__subtitle">
+              ИА Красная Весна <time datetime="15:55">15:55</time>
+            </p>
+          </div>
+        </article>
+
+        <article class="news__card">
+          <a class="news__title" href="#">
+            Ученые доказали экспериментальным путем пользу покровных культур
+          </a>
+          <p class="news__description">
+            Новое исследование ученых университета Иллинойса объединяет полевые
+            данные...
+          </p>
+          <img class="news__image" src="../images/wheat.png" alt="Wheat" />
+          <div class="news__footer">
+            <img class="news__icon" src="../icons/Г.png" alt="Г icon" />
+            <p class="news__subtitle">
+              Газета.Ru<time datetime="12:54">12:54</time>
+            </p>
+          </div>
+        </article>
+
+        <article class="news__card">
+          <a class="news__title" href="#">
+            Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
+          </a>
+          <p class="news__description">
+            Автопарк Baidu состоит из модифицированных электромобилей EV...
+          </p>
+          <img class="news__image" src="../images/apllo.png" alt="Apllo car" />
+          <div class="news__footer">
+            <img class="news__icon" src="../icons/х+.png" alt="X+ icon" />
+            <p class="news__subtitle">
+              Хайтек+<time datetime="13:44">13:44</time>
+            </p>
+          </div>
+        </article>
+
+        <article class="news__card">
+          <a class="news__title" href="#">
+            Стали известны ёмкости аккумуляторов всех моделей iPhone 13
+          </a>
+          <p class="news__description">
+            Во время презентации iPhone 13 Apple придала большое значения...
+          </p>
+          <img class="news__image" src="../images/iphone-13.png" alt="Apple " />
+          <div class="news__footer">
+            <img
+              class="news__icon"
+              src="../icons/red-bash.png"
+              alt="Red Bash icon"
+            />
+            <p class="news__subtitle">
+              Digger.ru<time datetime="14:25">14:25</time>
+            </p>
+          </div>
+        </article>
+
+        <article class="news__card">
+          <a class="news__title" href="#">
+            Nature: ученые смогли доказать природное происхождение коронавируса
+            SARS-CoV-2
+          </a>
+          <p class="news__description">
+            Во время презентации iPhone 13 Apple придала большое значение...
+          </p>
+          <img
+            class="news__image"
+            src="../images/laboratory.png"
+            alt="Laboratoty"
+          />
+          <div class="news__footer">
+            <img class="news__icon" src="../icons/L.png" alt="L icon" />
+            <p class="news__subtitle">
+              Lenta.ru<time datetime="10:54">10:54</time>
+            </p>
+          </div>
+        </article>
+
+        <article class="news__card">
+          <a class="news__title" href="#">
+            Китайская марка JAC повысила цены на лифтбек и пикап в России
+          </a>
+          <p class="news__description">
+            Две модели китайского бренда JAC из пяти, представленных на
+            российском...
+          </p>
+          <img class="news__image" src="../images/jac.png" alt="Laboratoty" />
+          <div class="news__footer">
+            <img class="news__icon" src="../icons/tarantas.png" alt="L icon" />
+            <p class="news__subtitle">
+              Тарантас Ньюс<time datetime="10:44">10:44</time>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="notification container">
+        <div class="notification__content">
+          <h3 class="notification__title">
+            Хотите быть в курсе свежих новостей? Включите уведомления!
+          </h3>
+          <a class="notification__btn btn" href="#">Влючить</a>
+        </div>
+      </section>
+
+      <section class="world__news container">
+        <div class="world__news__content">
+          <div class="world__news__left continer">
+            <h2 class="world__news__left__title">В мире</h2>
+
+            <article class="world-news__card">
+              <img
+                class="world-news__img"
+                src="../images/airplane.png"
+                alt="Airplane"
+                width="210"
+                height="165"
+              />
+              <div class="world-news__content">
+                <a href="#" class="world-news__title">
+                  Китайский Чунцин запустил чартерный рейс для студентов до
+                  Британии
+                </a>
+                <p class="world-news__description">
+                  Чартерный рейс с 244 китайскими студентами вылетел из города
+                  центрального подчинения Чунцина на юго-западе Китая в
+                  британский Манчестер...
+                </p>
+                <div class="news__footer">
+                  <img src="./icons/kb.png" class="news__icon" />
+                  <p class="news__subtitle">
+                    ИА Красная Весна <time datetime="12:25">12:25</time>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="world-news__card">
+              <img
+                class="world-news__img"
+                src="../images/angela-merkal.png"
+                alt="angela merkal"
+                width="210"
+                height="165"
+              />
+              <div class="world-news__content">
+                <a href="#" class="world-news__title">
+                  В Германии выпустят ограниченную партию плюшевых мишек в
+                  образе Меркель
+                </a>
+                <p class="world-news__description">
+                  БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по
+                  производству плюшевых игрушек в городе Кобург (федеральная
+                  земля Бавария) изготовила уникального...
+                </p>
+                <div class="news__footer">
+                  <img src="./icons/tass.png" class="news__icon" />
+                  <p class="news__subtitle">
+                    ТАСС <time datetime="11:35">11:35</time>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="world-news__card">
+              <img
+                class="world-news__img"
+                src="../images/china-town.png"
+                alt="China town"
+                width="210"
+                height="165"
+              />
+              <div class="world-news__content">
+                <a href="#" class="world-news__title">
+                  Акции КНР утратили доверие инвесторов. Что делать с бумагами
+                  прямо сейчас
+                </a>
+                <p class="world-news__description">
+                  За последние месяцы инвесторы в китайский рынок пережили
+                  настоящее потрясение — из-за ужесточения регулирования
+                  технологического сектора и критики некоторых...
+                </p>
+                <div class="news__footer">
+                  <img src="./icons/РБК.png" class="news__icon" />
+                  <p class="news__subtitle">
+                    РБК Инвестиции <time datetime="09:35">09:35</time>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="world-news__card">
+              <img
+                class="world-news__img"
+                src="../images/china-city.png"
+                alt="China city"
+                width="210"
+                height="165"
+              />
+              <div class="world-news__content">
+                <a href="#" class="world-news__title"
+                  >Китай раскритиковал заключенный Австралией, США и
+                  Великобританией антикитайский союз AUKUS
+                </a>
+                <p class="world-news__description">
+                  Не только Франция, которая лишилась многомиллиардного
+                  контракта с Австралий, осталась недовольна созданием
+                  трехстороннего оборонного альянса AUKUS, пишет Anna-News.info
+                </p>
+                <div class="news__footer">
+                  <img src="./icons/solenka.png" class="news__icon" />
+                  <p class="news__subtitle">
+                    Solenka.info <time datetime="19:43">19:43</time>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <a class="world-news__more btn">Показать ещё</a>
+          </div>
+          <div class="world__news__right container">
+            <div class="world__news__right__content">
+              <h3 class="section__title">Главное</h3>
+              <ul class="world__news__list">
+                <li class="world__news__item">
+                  <a class="world__news__link" href="#"
+                    >В Фергане создадут узбекско-пакистанский университет</a
+                  >
+                  <p class="world__news__description">
+                    Sputnik Узбекистан <time datetime="14:09">14:09</time>
+                  </p>
+                </li>
+                <li class="world__news__item">
+                  <a class="world__news__link" href="#"
+                    >Узбекистан утвердил соглашение о содействии занятости</a
+                  >
+                  <p class="world__news__description">
+                    ИА Красная Весна <time datetime="10:19">10:19</time>
+                  </p>
+                </li>
+                <li class="world__news__item">
+                  <a class="world__news__link" href="#"
+                    >В Узбекистане увеличивается очередь на автомобили UzAuto</a
+                  >
+                  <p class="world__news__description">
+                    Северная газета (Армянск)
+                    <time datetime="13:50">13:50</time>
+                  </p>
+                </li>
+                <li class="world__news__item">
+                  <a class="world__news__link" href="#"
+                    >Минтруд приостановит выплаты за щит</a
+                  >
+                  <p class="world__news__description">
+                    Sputnik Узбекистан <time datetime="14:32">14:32</time>
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <img
+              src="./images/olmos.png"
+              alt="banner"
+              class="main-news__banner"
+              width="393"
+              height="338"
+            />
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__contents">
+          <h2 class="footer__site__logo">NAMANGANLIKLAR 24</h2>
+          <div class="footer__contents_content">
+            <p class="footer_content_descraption">
+              Воспроизводство, копирование, использование информации с сайта
+              «NAMANGANLIKLAR24.UZ» возможно только с предварительного
+              письменного разрешения редакции.
+            </p>
+            <ul class="footer_content-links">
+              <li class="footer_content-links-item">
+                <a href="#" class="footer_content-link">Информация о сайте</a>
+              </li>
+              <li class="footer_content-links-item">
+                <a href="./pages/contact.html" class="footer_content-link"
+                  >Напишите нам</a
+                >
+              </li>
+              <li class="footer_content-links-item">
+                <a href="#" class="footer_content-link">Реклама</a>
+              </li>
+              <li class="footer_content-links-item">
+                <a href="#" class="footer_content-link">Прислать новость</a>
+              </li>
+            </ul>
+            <ul class="footer_content-links">
+              <li class="footer_content-links-item">
+                <a href="#" class="footer_content-link"
+                  >Использование материалов</a
+                >
+              </li>
+              <li class="footer_content-links-item">
+                <a href="#" class="footer_content-link">Темы дня</a>
+              </li>
+              <li class="footer_content-links-item">
+                <a href="#" class="footer_content-link">Наша команда</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__socals">
+          <h2 class="footer__socals-title">
+            Наши <br />
+            социальные сети
+          </h2>
+          <ul class="footer__socals-list">
+            <li class="footer__socals-list-item">
+              <a href="#" class="footer__socals-link"
+                ><img
+                  src="./icons/instagram.svg"
+                  width="25"
+                  height="25"
+                  alt="Instagram icon"
+              /></a>
+            </li>
+            <li class="footer__socals-list-item">
+              <a href="#" class="footer__socals-link"
+                ><img
+                  src="./icons/facebook.svg"
+                  width="25"
+                  height="25"
+                  alt="Facebook icon"
+              /></a>
+            </li>
+            <li class="footer__socals-list-item">
+              <a href="#" class="footer__socals-link"
+                ><img
+                  src="./icons/telegram.svg"
+                  width="25"
+                  height="25"
+                  alt="Telegram icon"
+              /></a>
+            </li>
+            <li class="footer__socals-list-item">
+              <a href="#" class="footer__socals-link">
+                <img
+                  src="./icons/youtube.svg"
+                  width="25"
+                  height="25"
+                  alt="Youtube icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
